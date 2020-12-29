@@ -1,9 +1,8 @@
 import './styles.css';
-import './css/main.css';
-import Saludar from './classes/saludar.js';
+import './css/saludar.css';
+import Saludar from './components/saludar.js';
 
 const saludo = new Saludar('Brayan');
-const variablePrueba = 'nani';
 
 const crearTitulo = (nombre) => {
   const titulo = document.createElement('h1');
@@ -12,4 +11,3 @@ const crearTitulo = (nombre) => {
 };
 
 crearTitulo(saludo.nombre);
-console.log(variablePrueba);
